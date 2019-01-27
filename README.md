@@ -87,19 +87,22 @@ Make a purchase
 
 >DEMO 
 ```
-https://youtu.be/UwAG14lm1p0
+[https://youtu.be/UwAG14lm1p0]
+(https://youtu.be/UwAG14lm1p0)
 ```
 
 >DEPLOYED ON ROPSTEN
 ```
-https://ropsten.etherscan.io/address/0x01638dc1b01e3d6a291c5d0e2cb4b9b3acc7e736
+[https://ropsten.etherscan.io/address/0x01638dc1b01e3d6a291c5d0e2cb4b9b3acc7e736]
+(https://ropsten.etherscan.io/address/0x01638dc1b01e3d6a291c5d0e2cb4b9b3acc7e736)
 ```
 >AVOIDING COMMON ATTACKS
 ```
-https://github.com/dev-bootcamp-2019/final-project-nikhil1415926/blob/master/avoiding_common_attacks.md
+[https://github.com/dev-bootcamp-2019/final-project-nikhil1415926/blob/master/avoiding_common_attacks.md](https://github.com/dev-bootcamp-2019/final-project-nikhil1415926/blob/master/avoiding_common_attacks.md)
 ```
 
 >DESIGN PATTERN DECISION
 ```
-https://github.com/dev-bootcamp-2019/final-project-nikhil1415926/blob/master/design_pattern_decisions.md
+[https://github.com/dev-bootcamp-2019/final-project-nikhil1415926/blob/master/design_pattern_decisions.md]
+(https://github.com/dev-bootcamp-2019/final-project-nikhil1415926/blob/master/design_pattern_decisions.md)
 ```
