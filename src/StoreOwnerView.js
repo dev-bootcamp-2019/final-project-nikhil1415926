@@ -218,7 +218,7 @@ class StoreOwnerView extends Component {
       <div style={{
         border: '1px solid #0000001e', 
         borderRadius: '4px', 
-        backgroundColor: '#fafafa',
+        backgroundColor: '#6cddc2',
         width: '33%',
         padding: '15px 15px 60px 15px',
         position: 'relative',

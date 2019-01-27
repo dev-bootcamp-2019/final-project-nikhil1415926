@@ -1,15 +1,15 @@
 import React, { Component } from 'react'
 import MarketplaceContract from '../build/contracts/Marketplace.json'
 import getWeb3 from './utils/getWeb3'
-
 import AdminComponent from './AdminComponent';
-import StoreOwnerContainer from './StoreOwnerContainer';
-import ShopperContainer from './ShopperContainer';
+import StoreOwnerComponent from './StoreOwnerComponent.js';
+import ShopperComponent from './ShopperComponent';
 
 import './css/oswald.css'
 import './css/open-sans.css'
 import './css/pure-min.css'
 import './App.css'
+
 
 class App extends Component {
   constructor(props) {
@@ -65,14 +65,14 @@ class App extends Component {
                   web3={this.state.web3}
                   currentAccount={this.state.currentAccount} 
                   marketplace={this.state.marketplaceInstance}></AdminComponent>}
-              {accountType === 'storeOwner' && <StoreOwnerContainer 
+              {accountType === 'storeOwner' && <StoreOwnerComponent 
                   web3={this.state.web3} 
                   currentAccount={this.state.currentAccount} 
-                  marketplace={this.state.marketplaceInstance}></StoreOwnerContainer>}
-              {accountType === 'shopper' && <ShopperContainer 
+                  marketplace={this.state.marketplaceInstance}></StoreOwnerComponent>}
+              {accountType === 'shopper' && <ShopperComponent 
                   web3={this.state.web3} 
                   currentAccount={this.state.currentAccount} 
-                  marketplace={this.state.marketplaceInstance}></ShopperContainer>}
+                  marketplace={this.state.marketplaceInstance}></ShopperComponent>}
             </div>
           </div>
         </main>

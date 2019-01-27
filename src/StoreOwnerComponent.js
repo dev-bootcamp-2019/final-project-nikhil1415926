@@ -3,7 +3,7 @@ import StoreOwnerView from './StoreOwnerView.js'
 import Header from './Header.js';
 
 
-class StoreOwnerContainer extends Component {
+class StoreOwnerComponent extends Component {
   constructor(props) {
     super(props);
 
@@ -110,4 +110,4 @@ class StoreOwnerContainer extends Component {
   }
 }
 
-export default StoreOwnerContainer
+export default StoreOwnerComponent

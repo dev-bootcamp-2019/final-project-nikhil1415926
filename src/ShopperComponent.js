@@ -3,7 +3,7 @@ import Header from './Header.js';
 import StoreShopperView from './StoreShopperView';
 
 
-class ShopperContainer extends Component {
+class ShopperComponent extends Component {
   constructor(props) {
     super(props);
 
@@ -59,7 +59,7 @@ class ShopperContainer extends Component {
   }
 
   handleGoToStorePage(storeId) {
-    console.log('handleGoToStorePage': storeId);
+    console.log('handleGoToStorePage', storeId);
   }
 
   render() {
@@ -117,4 +117,4 @@ class ShopperContainer extends Component {
   }
 }
 
-export default ShopperContainer;
+export default ShopperComponent;
