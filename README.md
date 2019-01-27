@@ -14,10 +14,9 @@ Refresh</p>
 
 
 <p>Quick Version </p>
-<p>truffle install<br>
-truffle migrate --reset<br>
+<p>npm install<br>
+truffle migrate<br>
 truffle test<br>
-npm install<br>
 npm run start</p>
 
 
