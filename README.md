@@ -31,4 +31,4 @@ Make sure ganache is on same port as above.
 
 
 <b>Demo video<b>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/UwAG14lm1p0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+https://www.youtube.com/embed/UwAG14lm1p0
