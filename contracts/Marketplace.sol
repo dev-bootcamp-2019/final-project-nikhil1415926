@@ -15,12 +15,12 @@ contract Marketplace {
     event NewStoreCreated(address owner, address store);
 
     modifier isAdmin() {
-        require(admins[msg.sender] == true);
+        require(admins[msg.sender] == true,"returns boolean valueas true if given address is admin");
         _;
     }
 
     modifier isStoreOwner() {
-        require(storeOwners[msg.sender] == true);
+        require(storeOwners[msg.sender] == true,"returns true if given address belong to store owner");
         _;
     }
 
@@ -29,7 +29,7 @@ contract Marketplace {
     }
 
     /** @dev Gets a list of store contract addresses that the msg.sender is the owner of.
-    * @return The list of store contract addresses.
+    * @return list of store contract addresses.
     */
     function getStoreAddressesByOwner() public view returns(address[] memory) {
         return storeAddressesByOwner[msg.sender];
@@ -62,6 +62,7 @@ contract Marketplace {
     */
     function addStoreOwnerRequest() public {
         storeOwnerRequests.push(msg.sender);
+        //emits an event when request for store ownership sent
         emit StoreOwnerRequestSent(msg.sender);
     }
 
@@ -73,7 +74,7 @@ contract Marketplace {
         require(storeOwnerRequests.length > index);
         require(storeOwnerRequests[index] == storeOwner);
         storeOwners[storeOwner] = true;
-
+        //emits event when store owner approves the request for store ownership
         emit StoreOwnerAdded(storeOwner);
     }
 
@@ -101,4 +102,4 @@ contract Marketplace {
     */
     function () external payable {}
  
-  }
+}
